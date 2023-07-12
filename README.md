@@ -14,3 +14,7 @@ Choose the range of your slave workbook by using this line of code:
 OpenBook1.Sheets(1).Range("A3:G1442").Copy
 Choose the sheet and where to put it down in your master workbook by using this line of code:
 ThisWorkbook.Worksheets("1").Range("A3").PasteSpecial xlPasteValuesAndNumberFormats
+
+# Jump to first and last sheet
+Insert Jump_to_1st_last.bas into your VBA code
+Click "Macros", then click "Option" and set the hotkey you want to use (Crtl+ letter)
